@@ -1,0 +1,209 @@
+* {
+  font-family: "Acme", "Kosugi Maru", sans-serif;
+  /*   border: solid 1px red; */
+}
+
+.carousel-inner {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.carousel-inner h3 {
+  font-size: 22px;
+}
+hr.style-one {
+  /*透明渐变水平线*/
+  width: 100%;
+  margin: 0 auto;
+  border: 0;
+  height: 4px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(122, 157, 194, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+hr.style-two {
+  /*渐变*/
+  width: 100%;
+  margin: 0 auto;
+  border: 0;
+  height: 4px;
+  background: #f18e67;
+  background-image: linear-gradient(
+    to right,
+    rgba(199, 62, 58, 1),
+    rgba(9, 206, 91, 0)
+  );
+}
+hr.style-three {
+  width: 40%;
+  margin: 0 auto;
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(161, 8, 84, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+}
+h9 {
+  background-color: rgba(247, 204, 166, 1);
+}
+h8 {
+  font-size: 14px;
+}
+h4 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0em 0.1em 0.1em #b55855;
+}
+h2 {
+  font-size: 20px;
+  color: #000000;
+  text-shadow: 0em 0.1em 0.1em #cdbba7;
+}
+
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #e2943b;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before,
+.toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #fff;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.6rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.6rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
+
+.text {
+  padding-top: 10px;
+}
+.text1 {
+  padding-top: 50px;
+  height: 250px;
+  line-height: 10px;
+}
+.video {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+.card {
+  /*   position: absolute; */
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+}
+body {
+  background-image: url(https://nancy-0724.github.io/img/0fb28bfe6439830cc6b27f1c78107f9b.jpg);
+}
+section#s1 {
+  padding-top: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(253, 239, 239),
+    rgba(253, 239, 239, 1) 90%,
+    rgb(253, 239, 239)
+  );
+  padding-bottom: 20px;
+}
+section#ps {
+  padding-top: -40px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(253, 239, 239) 2%,
+    rgb(244, 223, 208) 10%,
+    rgb(244, 223, 208)
+  );
+  padding-bottom: 20px;
+  
+}
+section#an {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(244, 223, 208) 2%,
+    rgb(244, 223, 208) 10%,
+    rgb(253, 239, 239)
+  );
+  padding-top: 80px;
+}
+}
+section#pr {
+  background-color: rgb(253, 239, 239);
+  padding-top: 80px;
+}
+
+ol {
+  margin-left: -30px;
+}
+.list {
+  margin-top: -20px;
+  margin-bottom: -15px;
+}
+.r {
+  font-size: 15px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.food button {
+  font-size: 16px;
+  padding: 3px;
+  background-color: #c46243;
+  margin-left: 35%;
+}
+.foodtext {
+  background-color: #ffefe8;
+  border: 2px #e0ad99 solid;
+  border-radius: 11px;
+}
+.col-sm-4 {
+  padding: auto;
+  margin: auto;
+}
+.eat {
+  font-size: 14px;
+  margin: 0px;
+}
